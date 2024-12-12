@@ -10,7 +10,7 @@
 
 
 
-((https://github.com/AndreyTest010/https-github.com-basa-11-01-hw/blob/main/memcached.jpg))
+(https://github.com/AndreyTest010/https-github.com-basa-11-01-hw/blob/main/memcached.jpg)
 
 
 ---
