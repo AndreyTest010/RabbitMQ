@@ -27,7 +27,8 @@ $ pip install pika
 
 
 
-![Название скриншота 2](ссылка на скриншот 2)
+![rabbit2](https://github.com/AndreyTest010/RabbitMQ/blob/main/rabbit2.jpg)
+![rabbit3](https://github.com/AndreyTest010/RabbitMQ/blob/main/rabbit3.jpg)
 
 
 ---
@@ -48,15 +49,23 @@ $ cat /etc/hosts
 
 В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.
 
+![rabbit4](https://github.com/AndreyTest010/RabbitMQ/blob/main/rabbit4.jpg)
+![rabbit7](https://github.com/AndreyTest010/RabbitMQ/blob/main/rabbit7.jpg)
+
 Также приложите вывод команды с двух нод:
 
 $ rabbitmqctl cluster_status
+
+![rabbit5](https://github.com/AndreyTest010/RabbitMQ/blob/main/rabbit5.jpg)
+![rabbit6](https://github.com/AndreyTest010/RabbitMQ/blob/main/rabbit6.jpg)
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 
 $ rabbitmqadmin get queue='hello'
+
+![rabbit8](https://github.com/AndreyTest010/RabbitMQ/blob/main/rabbit8.jpg)
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 Приложите скриншот результата работы второго скрипта.
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+
+![rabbit9](https://github.com/AndreyTest010/RabbitMQ/blob/main/rabbit9.jpg)
 
